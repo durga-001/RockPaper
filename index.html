@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <h1>Rock Paper Scissors</h1>
+    <div class="btn">
+        <button id="sto"> <img src="stone.jpg"  alt=""> Stone</button>
+        <button id="pap"> <img src="paper.jpg"  alt=""> Paper</button>
+        <button id="sci"> <img src="scissors.avif"  alt=""> Scissor</button>
+    </div>
+
+    <div id="choices">
+    <div class="choice-box">
+        <h3>You</h3>
+        <img id="human-img" src="" alt="">
+    </div>
+
+    <div class="choice-box">
+        <h3>Computer</h3>
+        <img id="computer-img" src="" alt="">
+    </div>
+</div>
+
+    <div id="result"></div>
+    <div id="score"></div>
 </body>
 </html>
